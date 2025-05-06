@@ -1,0 +1,41 @@
+#game-container {
+    width: 600px;
+    height: 400px;
+    background-color: #87CEEB;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+#basket {
+    width: 100px;
+    height: 20px;
+    background-color: brown;
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+    border-radius: 5px;
+}
+
+.fruit {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.bad-item {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
